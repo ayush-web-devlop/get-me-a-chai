@@ -7,23 +7,37 @@ export default function Home() {
       <div className="font-bold text-3xl flex items-center justify-center ">Buy me a chai 
         <span><img src="/chai.gif" width={50} /> </span>
       </div>
-      <p>A crowdfunding platform for creators. Get funded by your fans!</p>
+      <p>A crowdfunding platform for creators. Fund your creators!</p>
       <div>
       <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Start here</button>
 
-      <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-teal-300 to-lime-300 group-hover:from-teal-300 group-hover:to-lime-300 dark:text-white dark:hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-lime-800">
-      <span class="relative px-5 py-2.5 transition-all ease-in      duration-75 bg-white dark:bg-gray-900 rounded-md      group-hover:bg-opacity-0">
-      Read More
-      </span>
-      </button>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Read More</button>
+
+      
       </div>
     </div>
     <div className="bg-white h-1 opacity-15">
-     dfsd
     </div>
-    <div className="text-white">
-      <h1>Your fans can buy you a chai</h1>
-      <div className="flex gap-5"></div>
+    <div className="text-white container mx-auto py-16">
+      <h1 className="text-2xl font-bold text-center">Give your audience
+      an easy way to say thanks.</h1>
+      <p className="text-center my-4 text-gray-300 mb-10">Your fans can make the payment (buy you a chai) and leave a message.</p>
+      <div className="flex gap-5 justify-around">
+        <div className="flex flex-col items-center justify-center">
+          <img src="/help.gif" width={88}/>
+          <p>Fans want to help</p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center">
+          <img src="/coins.gif" width={88}/>
+          <p>Fans want to contribute</p>
+        </div>
+
+        <div className="flex flex-col items-center justify-center">
+          <img src="/group.gif" width={88}/>
+          <p>Fans want to collaborate</p>
+        </div>
+      </div>
     </div>
     </>
   );
